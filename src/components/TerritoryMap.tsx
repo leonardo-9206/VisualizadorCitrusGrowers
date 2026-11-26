@@ -206,8 +206,10 @@ export function TerritoryMap({
     const map = L.map(mapContainerRef.current, {
       center: initialView.center,
       zoom: initialView.zoom,
-      minZoom: 2,
+      minZoom: 1.75,
       maxZoom: 11,
+      zoomSnap: 0.25,
+      zoomDelta: 0.5,
       zoomControl: false,
       worldCopyJump: true,
     });

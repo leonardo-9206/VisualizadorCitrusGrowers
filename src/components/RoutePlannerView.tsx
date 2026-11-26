@@ -111,11 +111,12 @@ export function RoutePlannerView({
       {/* Top Executive KPI Telemetry Strip */}
       <section className="kpi-strip" aria-label="Indicadores clave de exportación y acuerdo">
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: 'var(--citrus-orange-soft)', color: 'var(--citrus-orange)' }}>
-            <Sprout size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: 'var(--citrus-orange)' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Productores CGA</span>
+            <span className="kpi-label">
+              <Sprout size={11} color="var(--citrus-orange)" />
+              Productores CGA
+            </span>
             <span className="kpi-value">
               1,400+ <span className="kpi-sub">6 países australes</span>
             </span>
@@ -123,11 +124,12 @@ export function RoutePlannerView({
         </div>
 
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: 'var(--orchard-green-soft)', color: 'var(--orchard-green)' }}>
-            <TrendingUp size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: 'var(--orchard-green)' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Meta Visión 260</span>
+            <span className="kpi-label">
+              <TrendingUp size={11} color="var(--orchard-green)" />
+              Meta Visión 260
+            </span>
             <span className="kpi-value">
               260M <span className="kpi-sub">cajas · 2032</span>
             </span>
@@ -135,11 +137,12 @@ export function RoutePlannerView({
         </div>
 
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: 'var(--ocean-teal-soft)', color: 'var(--ocean-teal)' }}>
-            <Globe2 size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: 'var(--ocean-teal)' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Alcance Global</span>
+            <span className="kpi-label">
+              <Globe2 size={11} color="var(--ocean-teal)" />
+              Alcance Global
+            </span>
             <span className="kpi-value">
               120+ <span className="kpi-sub">países · #2 mundial</span>
             </span>
@@ -147,11 +150,12 @@ export function RoutePlannerView({
         </div>
 
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: 'var(--france-navy-soft)', color: 'var(--france-navy)' }}>
-            <Package size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: 'var(--france-navy)' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Acuerdo Auchan</span>
+            <span className="kpi-label">
+              <Package size={11} color="var(--france-navy)" />
+              Acuerdo Auchan
+            </span>
             <span className="kpi-value">
               $10.15 <span className="kpi-sub">USD/caja (15 kg)</span>
             </span>
@@ -159,11 +163,12 @@ export function RoutePlannerView({
         </div>
 
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: 'var(--amber-gold-soft)', color: 'var(--amber-gold)' }}>
-            <ShieldCheck size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: 'var(--amber-gold)' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Fondo Emergentes</span>
+            <span className="kpi-label">
+              <ShieldCheck size={11} color="var(--amber-gold)" />
+              Fondo Emergentes
+            </span>
             <span className="kpi-value">
               +$0.15 <span className="kpi-sub">CGA-GDC · 3 años</span>
             </span>
@@ -171,11 +176,12 @@ export function RoutePlannerView({
         </div>
 
         <div className="kpi-item">
-          <div className="kpi-icon" style={{ background: '#f1f5f9', color: '#334155' }}>
-            <Anchor size={16} />
-          </div>
+          <span className="kpi-rule" style={{ background: '#4c463d' }} aria-hidden="true" />
           <div className="kpi-meta">
-            <span className="kpi-label">Incoterm · UE/RU</span>
+            <span className="kpi-label">
+              <Anchor size={11} color="#4c463d" />
+              Incoterm · UE/RU
+            </span>
             <span className="kpi-value">
               CIF <span className="kpi-sub">30%–40% destino</span>
             </span>

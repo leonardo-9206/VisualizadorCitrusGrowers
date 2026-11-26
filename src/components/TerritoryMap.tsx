@@ -100,46 +100,46 @@ function getTerritoryStyle(role: TerritoryFeatureProps['role'], isSatellite: boo
   switch (role) {
     case 'cga-core':
       return {
-        color: '#E86F1F',
+        color: '#C85A17',
         weight: 2.2,
-        fillColor: '#E86F1F',
+        fillColor: '#C85A17',
         fillOpacity: isSatellite ? 0.34 : 0.24,
       };
     case 'cga-member':
       return {
-        color: '#168053',
+        color: '#1D6342',
         weight: 1.5,
-        fillColor: '#168053',
+        fillColor: '#1D6342',
         fillOpacity: isSatellite ? 0.28 : 0.17,
       };
     case 'auchan-core':
       return {
-        color: '#1D4ED8',
+        color: '#22487A',
         weight: 2.2,
-        fillColor: '#1D4ED8',
+        fillColor: '#22487A',
         fillOpacity: isSatellite ? 0.34 : 0.24,
       };
     case 'auchan-eu':
       return {
-        color: '#3B82F6',
+        color: '#4A75AA',
         weight: 1.3,
-        fillColor: '#3B82F6',
+        fillColor: '#4A75AA',
         fillOpacity: isSatellite ? 0.24 : 0.14,
       };
     case 'auchan-other':
       return {
-        color: '#64748B',
+        color: '#766E62',
         weight: 1.1,
         dashArray: '3 3',
-        fillColor: '#64748B',
+        fillColor: '#766E62',
         fillOpacity: 0.12,
       };
     case 'competitor':
       return {
-        color: '#C5283D',
+        color: '#9E2A3B',
         weight: 1.4,
         dashArray: '4 4',
-        fillColor: '#C5283D',
+        fillColor: '#9E2A3B',
         fillOpacity: 0.1,
       };
   }
@@ -572,19 +572,19 @@ export function TerritoryMap({
         <div className="legend-title">Territorios y Actores</div>
         <div className="legend-items">
           <span className="legend-item">
-            <span className="legend-swatch" style={{ background: '#E86F1F' }} />
+            <span className="legend-swatch" style={{ background: '#C85A17' }} />
             Sudáfrica (CGA)
           </span>
           <span className="legend-item">
-            <span className="legend-swatch" style={{ background: '#168053' }} />
+            <span className="legend-swatch" style={{ background: '#1D6342' }} />
             Miembros Australes
           </span>
           <span className="legend-item">
-            <span className="legend-swatch" style={{ background: '#1D4ED8' }} />
+            <span className="legend-swatch" style={{ background: '#22487A' }} />
             Francia (Auchan)
           </span>
           <span className="legend-item">
-            <span className="legend-swatch" style={{ background: '#3B82F6' }} />
+            <span className="legend-swatch" style={{ background: '#4A75AA' }} />
             Red Europea
           </span>
         </div>
